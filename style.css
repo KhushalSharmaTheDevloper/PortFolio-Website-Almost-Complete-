@@ -1,5 +1,7 @@
+
 body {
     margin-left: 170px;
+    height: 3900px;
     background-color: #0E1011;
     color: #DEDEDE;
     font-family: 'Plus Jakarta Sans';
@@ -28,7 +30,8 @@ i {
 }
 
 i:hover{
-    font-size: 2.4em;
+    font-size: 3em;
+   
     transition-timing-function: ease-in-out 300ms;
     transition: ease-in-out 300ms;
 }
@@ -50,6 +53,7 @@ h1 {
     transition: ease-in-out 300ms;
     animation: forbox;
     animation-timeline: view();
+    margin-top: 50px;
 }
 
 h3 {
@@ -61,12 +65,14 @@ h3 {
 
 .box img {
     width: 600px;
+    border-radius: 44px;
+    margin-top: 25px;
 }
 
 .img1 {
     display: flex;
     justify-content: center;
-}
+    margin-top: 20px;}
 
 .box:hover {
     background: linear-gradient(to bottom right, rgb(16, 16, 74) , black);
@@ -172,4 +178,35 @@ span {
 
 .box1 h4 {
     text-align: right;
+}
+
+.dif1 h2{
+    font-size: 3rem;
+}
+
+.dif1 li {
+    font-size: 1.5em;
+    margin: 14px;
+    transition-timing-function: ease-in-out .5s;
+    transition: ease-in-out .5s;}
+.dif1 li:hover{
+    font-size: 2rem;
+    margin: 25px;
+    transition-timing-function: ease-in-out .5s;
+    transition: ease-in-out .5s;}
+
+
+.dif2 h4 {
+    font-size: 4rem;
+    margin-top: 200px;
+}
+
+.dif4 h4{
+    font-size: 7rem;
+}
+
+.dif4 a {
+    font-size: 3rem;
+    color: wheat;
+    margin-top: -170px;
 }
